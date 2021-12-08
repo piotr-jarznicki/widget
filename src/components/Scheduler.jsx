@@ -1,4 +1,4 @@
-const Scheduler = ({symbol}) => {
+const Scheduler = () => {
     return <h1>HELLO THERE!</h1>
 }
 

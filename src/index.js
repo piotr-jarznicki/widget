@@ -5,4 +5,6 @@ import App from "./App";
 
 const widgetDiv = document.getElementById("schedule-widget");
 
-ReactDOM.render(<App symbol={widgetDiv.dataset.symbol} />, widgetDiv);
+
+console.log(widgetDiv);
+ReactDOM.render(<App/>, widgetDiv);
