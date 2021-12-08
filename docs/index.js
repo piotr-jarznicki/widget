@@ -15,9 +15,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./cjs/react-dom.production.min.js":"i17t"}],"vKFU":[function(require,module,exports) {
 
 },{}],"coeq":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=function(){return React.createElement("h1",null,"HELLO THERE!")},t=e;exports.default=t;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=function(e){var t=e.symbol;return React.createElement("h1",null,"HELLO THERE! ",t)},t=e;exports.default=t;
 },{}],"lY9v":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0,require("./App.css");var e=r(require("./components/Scheduler"));function r(e){return e&&e.__esModule?e:{default:e}}function t(r){var t=r.symbol;return React.createElement(e.default,{symbol:t})}var u=t;exports.default=u;
 },{"./App.css":"vKFU","./components/Scheduler":"coeq"}],"Focm":[function(require,module,exports) {
-"use strict";var e=u(require("react")),r=u(require("react-dom"));require("./index.css");var t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}var d=document.getElementById("schedule-widget");console.log(d),r.default.render(e.default.createElement(t.default,null),d);
+"use strict";var e=a(require("react")),r=a(require("react-dom"));require("./index.css");var t=a(require("./App"));function a(e){return e&&e.__esModule?e:{default:e}}var u=document.querySelectorAll(".nicoraynaud-finance-widget");u.forEach(function(a){r.default.render(e.default.createElement(e.default.StrictMode,null,e.default.createElement(t.default,{symbol:a.dataset.symbol})),a)});
 },{"react":"n8MK","react-dom":"NKHc","./index.css":"vKFU","./App":"lY9v"}]},{},["Focm"], null)
