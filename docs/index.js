@@ -14,10 +14,8 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 "use strict";function _(){if("undefined"!=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__&&"function"==typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE){0;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(_)}catch(O){console.error(O)}}}_(),module.exports=require("./cjs/react-dom.production.min.js");
 },{"./cjs/react-dom.production.min.js":"i17t"}],"vKFU":[function(require,module,exports) {
 
-},{}],"coeq":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=function(e){var t=e.symbol;return React.createElement("h1",null,"HELLO THERE! ",t)},t=e;exports.default=t;
 },{}],"lY9v":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0,require("./App.css");var e=r(require("./components/Scheduler"));function r(e){return e&&e.__esModule?e:{default:e}}function t(r){var t=r.symbol;return React.createElement(e.default,{symbol:t})}var u=t;exports.default=u;
-},{"./App.css":"vKFU","./components/Scheduler":"coeq"}],"Focm":[function(require,module,exports) {
-"use strict";var e=a(require("react")),r=a(require("react-dom"));require("./index.css");var t=a(require("./App"));function a(e){return e&&e.__esModule?e:{default:e}}var u=document.querySelectorAll(".nicoraynaud-finance-widget");u.forEach(function(a){r.default.render(e.default.createElement(e.default.StrictMode,null,e.default.createElement(t.default,{symbol:a.dataset.symbol})),a)});
+"use strict";function e(){return React.createElement("div",{className:"App"},React.createElement("header",{className:"App-header"},React.createElement("p",null,"My favorite subreddit is /r/"),React.createElement("a",{className:"App-link",href:"https://reactjs.org",target:"_blank",rel:"noopener noreferrer"},"Learn React")))}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0,require("./App.css");var r=e;exports.default=r;
+},{"./App.css":"vKFU"}],"Focm":[function(require,module,exports) {
+"use strict";var e=u(require("react")),r=u(require("react-dom"));require("./index.css");var t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}var l=document.querySelectorAll(".reddit_widget");l.forEach(function(u){r.default.render(e.default.createElement(e.default.StrictMode,null,e.default.createElement(t.default,null)),u)});
 },{"react":"n8MK","react-dom":"NKHc","./index.css":"vKFU","./App":"lY9v"}]},{},["Focm"], null)
